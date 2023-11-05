@@ -1,0 +1,169 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px;
+  min-height: 100vh;
+}
+
+/* --------- Header ---------- */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+  background: #1f2937;
+  color: white;
+  padding: 0px 100px;
+}
+header ul {
+  gap: 16px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: lightgray;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: lightgray;
+}
+
+/* --------- Container between header and footer ---------- */
+
+.container {
+  flex-grow: 1;
+}
+
+/* --------- row 01 ---------- */
+
+.row-01 {
+  display: flex;
+  padding: 50px 100px;
+  background: #1f2937;
+  min-height: 225px;
+  gap: 16px;
+}
+
+.row-01 > .item-01 {
+  display: flex;
+  flex-direction: column;
+}
+
+.website {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+h1 {
+  color: white;
+  font-size: 48px;
+}
+
+.row-01 > .item-02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: gray;
+  color: #e5e7eb;
+  min-width: calc(50vw - 100px);
+}
+
+button {
+  color: white;
+  background: #3882f6;
+  border: 2px solid #3882f6;
+  border-radius: 5px;
+  padding: 3px 30px;
+}
+
+/* --------- row 02 ---------- */
+
+.row-02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 200px;
+  min-height: 225px;
+}
+.row-02 > .item-01 {
+  padding-bottom: 16px;
+}
+.row-02 > .item-02 {
+  gap: 50px;
+}
+.picture {
+  display: block;
+  height: 150px;
+  width: 150px;
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+}
+
+.subtext {
+  display: block;
+  width: 150px;
+  color: #1f2937;
+}
+
+/* --------- row 03 ---------- */
+
+.row-03 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #e5e7eb;
+  flex-grow: 1;
+  padding: 50px 200px;
+  min-height: 225px;
+}
+
+.row-03 > .quote {
+  font-size: 36px;
+  font-style: light italic;
+  color: #1f2937;
+}
+
+.row-03 > .signature {
+  text-align: right;
+  font-weight: bold;
+}
+
+/* --------- row 04 ---------- */
+
+.row-04 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 75px 100px;
+  padding: 0px 50px;
+  min-height: 125px;
+  border: 1px solid green;
+  background: #3882f6;
+  border-radius: 10px;
+}
+
+.row-04 > .item-01 {
+  flex-grow: 1;
+  max-height: 100px;
+  color: white;
+}
+
+.row-04 > .item-02 {
+  border: 2px solid white;
+  max-height: 25px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+  background: #1f2937;
+  color: white;
+}
